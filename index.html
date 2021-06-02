@@ -9,7 +9,7 @@
     <title>James Burgess</title>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,29 +38,83 @@
           </nav>
     <header id="home">
         <center>
-            <h1>Welcome to my page!</h1>
+            <h1>Hi, I'm James Burgess</h1>
         </center>
     </header>
-    <center>
-        <img src="./me.jpg" alt="">
-    </center>
-    <p id="aboutme">
-        People find me to be an upbeat, self-motivated team player with excellent communication skills. For the past several years I have worked as an Assistant Store Manager of Sales in a Best Buy retail store.
-         My experience includes coaching and developing a sales force, setting the example of “world class” customer service and solving complex problems that require immediate resolution. I built a culture of success
-          with my team by creating internal competition creating a track record of maintaining consistent performance results, this is evidenced by performing in the top one percent of the company and winning Best Buy’s “Achievers” contest in 2019.
-            <br>
-            <br>
-          Outside of the office, I am usually spending quality time with my wonderful girlfriend Dani and out two pugs, Kitty and Jellybean. Together we love exploring all the beauty Utah has to offer spending time in
-           the mountains, on trails or at the lake. We also have a small business called Honeycomb Acrylics where we make custom abstract acrylic paintings and share the process and pictures to several social media networks.
-            Our most recent hobby that we have fallen in love with is photography, we try to take our camera everywhere and capture the experiences we have. 
+
+        <center>
+            <img src="./me.jpg" alt="picofme" width="40%" height="40%">
+        </center>
+    <p>
+        <h2 id="aboutmeheader">
+                About Me
+        </h2>
+            <p id="aboutme">
+                People find me to be an upbeat, self-motivated team player with excellent communication skills. For the past several years I have worked as an Assistant Store Manager of Sales in a Best Buy retail store.
+                My experience includes coaching and developing a sales force, setting the example of “world class” customer service and solving complex problems that require immediate resolution. I built a culture of success
+                with my team by creating internal competition creating a track record of maintaining consistent performance results, this is evidenced by performing in the top one percent of the company and winning Best Buy’s “Achievers” contest in 2019.
+                <br>
+                <br>
+                Outside of the office, I am usually spending quality time with my wonderful girlfriend Dani and out two pugs, Kitty and Jellybean. Together we love exploring all the beauty Utah has to offer spending time in
+                the mountains, on trails or at the lake. We also have a small business called Honeycomb Acrylics where we make custom abstract acrylic paintings and share the process and pictures to several social media networks.
+                Our most recent hobby that we have fallen in love with is photography, we try to take our camera everywhere and capture the experiences we have. 
+            </p>
     </p>
 
-    <p id="projects">
-        These are my most recent projects 
+    <p>
+        <h2 id="projectsheader">
+            My most recent projects 
+        </h2>
+            <p>
+                
+                <div class="card text-white bg-primary mb-3" style="max-width: 20rem; margin-left: 10%;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Project 1</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-primary mb-3" style="max-width: 20rem; margin-left: 10%;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Project 2</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-primary mb-3" style="max-width: 20rem; margin-left: 10%;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Project 3</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  
+            </p>
     </p>
 
-    <p id="contact">
-        If you would like to contact me 
+    <p>
+        <h2 id="contact">
+            How to contact me 
+        </h2>
+            <div class="container">
+                <form action="action_page.php">
+          
+                 <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+                <label for="lname">Last Name</label>
+                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+                 <label for="lname">Email</label>
+                 <input type="text" id="email" name="email" placeholder="Your email..">
+          
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+                  <input type="submit" value="Submit">
+          
+                </form>
+            </div>
     </p>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -1,0 +1,64 @@
+img {
+    border-radius: 50%;
+  }
+  .card {display:inline-block;}
+#home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body {
+    background-color: #003399;
+    font-size: large;
+    color: white;
+}
+#navbar {background-color:#000066} 
+
+#aboutmeheader {
+    margin-top: 100px;
+    margin-left: 10%;
+}
+#aboutme {
+    margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#projectsheader {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+#contact {
+    margin-top: 100px;
+    margin-left: 10%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black;
+  }
